@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
     <head>
         <meta charset="utf-8">
         <title>angular tutorial</title>
+        <script src="lib/jquery/dist/jquery.min.js"></script>
+        <script src="lib/angular/angular.min.js"></script>                
     </head>
-    <body>
-
+    <body ng-controller="myCtrl">
+        {{welcomeMessage}}
     </body>
+    <script src="main.js"></script>
 </html>
